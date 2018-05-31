@@ -21,7 +21,7 @@ Please complete the [course survey located here](https://goo.gl/forms/5hdIeaFtQo
 
 We will use [Slack](https://dataviscourse2018.slack.com) for discussions, to find team members, to arrange appointments, and to ask questions. Slack should be your primary form of communication with the staff and other students.
 
-However, please do not send personal messages to the staff. Instead, use e-mail for personal requests (alex@sci.utah.edu, see course website for TA e-mail ), e.g., to inform us if you're sick for an exam, etc. If you ask a general question via a personal message or e-mail, we will request that you ask it on Slack instead. All information such as new homework assignments will be linked from the website but also announced on Slack.
+However, please do not send personal messages to the staff. Instead, use e-mail for personal requests (alex@sci.utah.edu), e.g., to inform us if you're sick for an exam, etc. If you ask a general question via a personal message or e-mail, we will request that you ask it on Slack instead. All information such as new homework assignments will be linked from the website but also announced on Slack.
 
 **Please do not use Canvas Messages to contact us. We won't read it.**
 
