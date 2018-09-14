@@ -1,9 +1,9 @@
 /**
-* Requests the file and executes a callback with the parsed result once
-* it is available
-* @param {string} path - The path to the file.
-* @param {function} callback - The callback function to execute once the result is available
-*/
+ * Requests the file and executes a callback with the parsed result once
+ * it is available
+ * @param {string} path - The path to the file.
+ * @param {function} callback - The callback function to execute once the result is available
+ */
 function fetchJSONFile(path, callback) {
     let httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
@@ -22,6 +22,10 @@ function fetchJSONFile(path, callback) {
 // this is the function executed as a callback when parsing is done
 fetchJSONFile('data/Tree.json', function(data) {
     let tree = new Tree(data);
+    console.log(data);
     tree.buildTree();
     tree.renderTree();
+    let node = new Node('node name', 'parent');
+    console.log(tree);
+    // console.log(node.addChild(node));
 });

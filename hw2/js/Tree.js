@@ -7,6 +7,8 @@ class Tree {
      * @param {json[]} json - array of json objects with name and parent fields
      */
     constructor(json) {
+        this.data = json;
+        this.testList = [];
 
     }
 
@@ -15,7 +17,7 @@ class Tree {
      */
     buildTree() {
         // note: in this function you will assign positions and levels by making calls to assignPosition() and assignLevel()
-
+        this.testList.push(fakenode)
     }
 
     /**
