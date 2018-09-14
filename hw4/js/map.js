@@ -60,6 +60,8 @@ class Map {
         // You need to match the country with the region. This can be done using .map()
         // We have provided a class structure for the data called CountryData that you should assign the paramters to in your mapping
 
+        //TODO - Your code goes here - 
+
 
     }
 
@@ -75,6 +77,8 @@ class Map {
         // d3 selection and .classed to set these classes on here.
         //
 
+        //TODO - Your code goes here - 
+
     }
 
     /**
@@ -88,6 +92,8 @@ class Map {
         // Hint: If you followed our suggestion of using classes to style
         // the colors and markers for hosts/teams/winners, you can use
         // d3 selection and .classed to set these classes off here.
+
+        //TODO - Your code goes here - 
 
 
     }

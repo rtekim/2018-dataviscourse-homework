@@ -50,12 +50,18 @@ class GapPlot {
 
         this.data = data;
 
+        //TODO - Your code goes here - 
+
+
         // ******* TODO: PART 3 *******
         /**
          For part 4 of the homework, you will be using the other 3 parameters.
          * assign the highlightUpdate function as a variable that will be accessible to you in updatePlot()
          * assign the dragUpdate function as a variable that will be accessible to you in updatePlot()
          */
+
+
+        //TODO - Your code goes here - 
 
     }
 
@@ -73,6 +79,9 @@ class GapPlot {
          Main things you should set up here:
          1). Create the x and y axes
          2). Create the activeYear background text
+
+
+        //TODO - Your code goes here - 
 
 
          The dropdown menus have been created for you!
@@ -179,6 +188,8 @@ class GapPlot {
         Pay attention to the parameters needed in each of the functions
         
         */
+
+        //TODO - Your code goes here - 
 
         /**
          *  Function to determine the circle radius by circle size
@@ -316,6 +327,8 @@ class GapPlot {
         */
         let that = this;
 
+        //TODO - Your code goes here - 
+
         //Slider to change the activeYear of the data
         let yearScale = d3.scaleLinear().domain([1800, 2020]).range([30, 730]);
 
@@ -392,6 +405,8 @@ class GapPlot {
         // you will need to call it from the updateHighlight function in script.js
         */
 
+        //TODO - Your code goes here - 
+
     }
 
     /**
@@ -406,7 +421,7 @@ class GapPlot {
         // the colors and markers for hosts/teams/winners, you can use
         // d3 selection and .classed to set these classes off here.
 
-
+        //TODO - Your code goes here - 
     }
 
     /**

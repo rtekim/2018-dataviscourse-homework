@@ -16,6 +16,8 @@ loadData().then(data => {
 
         that.activeCountry = countryID;
 
+        //TODO - Your code goes here - 
+
     }
 
     // ******* TODO: PART 3 *******
@@ -27,6 +29,8 @@ loadData().then(data => {
      *  @param year the new year we need to set to the other views
      */
     function updateYear(year) {
+
+        //TODO - Your code goes here - 
 
     }
     // Creates the view objects
@@ -43,6 +47,8 @@ loadData().then(data => {
         // ******* TODO: PART I *******
 
         // You need to pass the world topo data to the drawMap() function as a parameter, along with the starting activeYear.
+
+        //TODO - Your code goes here - 
 
     });
 

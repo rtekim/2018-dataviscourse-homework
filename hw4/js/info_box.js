@@ -42,6 +42,8 @@ class InfoBox {
          *
          */
 
+        //TODO - Your code goes here - 
+
 
     }
 
@@ -50,6 +52,7 @@ class InfoBox {
      */
     clearHighlight() {
 
+        //TODO - Your code goes here - 
     }
 
 }
