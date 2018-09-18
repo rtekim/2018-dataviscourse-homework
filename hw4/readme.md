@@ -62,7 +62,7 @@ You can view the page at [http://localhost:8080](http://localhost:8080). Before 
 
 ## The Data
 
-Your map will use GeoJSON data that is contained in the `world.json` file. The data is split into several csv files, one each for **child mortality**, **GDP per capita**, **life expectancy**, **fertility rate**, and **population** for countries. Each files contains data for every year from 1880 to 2020; take a look at the files to understand the structure. We are using data from the [GapMinder data repository](https://www.gapminder.org/data/). We provided the data loading for you, but you will have to pass the data to the corresponding view objects in `script.js`. 
+Your map will use topoJSON data that is contained in the `world.json` file. The data is split into several csv files, one each for **child mortality**, **GDP per capita**, **life expectancy**, **fertility rate**, and **population** for countries. Each files contains data for every year from 1880 to 2020; take a look at the files to understand the structure. We are using data from the [GapMinder data repository](https://www.gapminder.org/data/). We provided the data loading for you, but you will have to pass the data to the corresponding view objects in `script.js`. 
 
 Here is a sample of the population data: 
 
