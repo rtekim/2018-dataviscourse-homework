@@ -46,7 +46,7 @@ loadData().then(data => {
 
         // ******* TODO: PART I *******
 
-        // You need to pass the world topo data to the drawMap() function as a parameter, along with the starting activeYear.
+        // You need to pass the world topo data to the drawMap() function as a parameter
 
         //TODO - Your code goes here - 
 
