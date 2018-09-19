@@ -64,6 +64,56 @@ class Map {
 
         //TODO - Your code goes here - 
 
+        console.log(this.populationData);
+        console.log(this.nameArray);
+
+        let countries = topojson.feature(world, world.objects.countries);
+        console.log(countries);
+
+        let MapObjects = [];
+
+        countries.features.forEach(country => {
+
+
+
+            if (this.nameArray.indexOf(country.id) > -1) {
+                let foundIndex = this.nameArray.indexOf(country.id);
+                console.log(this.populationData[foundIndex], country.id);
+
+                let region = this.populationData[foundIndex].region;
+
+                let dataOb = new CountryData(country.type, country.id, country.properties, country.geometry, region);
+                MapObjects.push(dataOb);
+
+            } else {
+                let dataOb = new CountryData(country.type, country.id, country.properties, country.geometry, 'countries');
+                MapObjects.push(dataOb);
+            }
+
+        });
+
+
+        console.log(MapObjects);
+
+
+
+        let div = d3.select('#map-chart')
+        let svg = div.append('svg');
+
+        let circ = svg.selectAll('circle').data(MapObjects);
+
+        let cEnter = circ.enter().append('circle');
+
+        circ = cEnter.merge(circ);
+
+        circ.attr('cx', (d, i) => i * 20);
+        circ.attr('cy', (d, i) => 5);
+        circ.attr('r', 5);
+
+        circ.attr('class', (d) => d.region);
+
+        svg.append('g').classed('x-axis', true);
+
 
     }
 
