@@ -87,7 +87,7 @@ class Table {
         //Append th elements for the Team Names
 
         //Append td elements for the remaining columns. 
-        //Data for each cell is of the type: {'type':<'game' or 'aggregate'>, 'value':<[array of 1 or two elements]>}
+        //Data for each cell is of the type: {'type':<'game' or 'aggregate'>, 'vis' :<'bar', 'goals', or 'text'>, 'value':<[array of 1 or two elements]>}
         
         //Add scores as title property to appear on hover
 
