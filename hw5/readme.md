@@ -175,7 +175,7 @@ Take the following syntax:
 ```javascript
 let td = tr.selectAll("td").data((d) => { /* create data array here */ });
 ```
-Notice how we are not passing in new data to the `<td>` elements, but only a function that will manipulate the data being passed down from `tr`, which is the parent element. And we also need colume informations to pass in so that we won't miss colume data. This will generate as many `<td>` elements as there are data elements in the array returned by your function(d){}. 
+Notice how we are not passing in new data to the `<td>` elements, but only a function that will manipulate the data being passed down from `tr`, which is the parent element. And we also need column informations to pass in so that we won't miss colume data. This will generate as many `<td>` elements as there are data elements in the array returned by your function(d){}. 
 
 Add a `console.log()` call to see what the data being passed down looks like. This will make it easier for you to decide what to return as the data you want bound to your `<td>` elements. 
 
