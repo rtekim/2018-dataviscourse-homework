@@ -175,9 +175,9 @@ Take the following syntax:
 ```javascript
 let td = tr.selectAll("td").data((d) => { /* create data array here */ });
 ```
-Notice how we are not passing in new data to the `<td>` elements, but only a function that will manipulate the data being passed down from `tr`, which is the parent element. This will generate as many `<td>` elements as there are data elements in the array returned by your function(d){}. 
+Notice how we are not passing in new data to the `<td>` elements, but only a function that will manipulate the data being passed down from `tr`, which is the parent element. And we also need colume informations to pass in so that we won't miss colume data. This will generate as many `<td>` elements as there are data elements in the array returned by your function(d){}. 
 
-Add a `console.log()` inside the `(d) => {}` call to see what the data being passed down looks like. This will make it easier for you to decide what to return as the data you want bound to your `<td>` elements. 
+Add a `console.log()` call to see what the data being passed down looks like. This will make it easier for you to decide what to return as the data you want bound to your `<td>` elements. 
 
 At this point we are only handling aggregate values but because we will be eventually handling game specific data objects, we want to keep track of what kind of data we are passing into these `<td>` elements. This means that the anonymous function defined as a parameter to your `data()` operator (as shown above) should return an object with three fields: `type`, `vis`, and `value`. The first will indicate if this is an `aggregate` or `game` row, the second will serve as a tag for what kind of vis we will use for that data (`bar`, `goals`, or `text` for example), and the third will contain the actual value we want to visualize in that cell.
 
