@@ -27,7 +27,6 @@ Costa Rica,Serbia,0,1,-1,1,1,Group
 Brazil,Switzerland,1,1,0,0,0,Group
 Brazil,Costa Rica,2,0,2,1,0,Group
 Serbia,Brazil,0,2,-2,1,1,Group
-Serbia,Brazil,0,2,-2,1,1,Group
 Switzerland,Costa Rica,2,2,0,0,0,Group
 Germany,Mexico,0,1,-1,1,1,Group
 Sweden,Korea Republic,1,0,1,1,0,Group
@@ -74,7 +73,6 @@ Croatia,Iceland,2,1,1,1,1,Group
 Serbia,Costa Rica,1,0,1,1,1,Group
 Switzerland,Brazil,1,1,0,0,0,Group
 Costa Rica,Brazil,0,2,-2,0,1,Group
-Brazil,Serbia,2,0,2,1,1,Group
 Brazil,Serbia,2,0,2,1,1,Group
 Costa Rica,Switzerland,2,2,0,0,0,Group
 Mexico,Germany,1,0,1,1,1,Group
