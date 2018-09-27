@@ -103,7 +103,7 @@
       "Goals Made": 2,
       "Goals Conceded": 6,
       "Delta Goals": -4,
-      "Wins": 1,
+      "Wins": 0,
       "Losses": 3,
       "Result": {
         "label": "Group",
@@ -170,7 +170,7 @@
       "Goals Conceded": 3,
       "Delta Goals": 4,
       "Wins": 4,
-      "Losses": 2,
+      "Losses": 1,
       "Result": {
         "label": "Quarter Finals",
         "ranking": 2
@@ -333,7 +333,7 @@
       "Goals Made": 2,
       "Goals Conceded": 4,
       "Delta Goals": -2,
-      "Wins": 1,
+      "Wins": 0,
       "Losses": 2,
       "Result": {
         "label": "Group",
@@ -481,8 +481,8 @@
       "Goals Made": 2,
       "Goals Conceded": 2,
       "Delta Goals": 0,
-      "Wins": 2,
-      "Losses": 2,
+      "Wins": 1,
+      "Losses": 1,
       "Result": {
         "label": "Group",
         "ranking": 0
@@ -548,7 +548,7 @@
       "Goals Conceded": 6,
       "Delta Goals": 1,
       "Wins": 1,
-      "Losses": 2,
+      "Losses": 1,
       "Result": {
         "label": "Round of Sixteen",
         "ranking": 1
@@ -759,8 +759,8 @@
       "Goals Made": 2,
       "Goals Conceded": 2,
       "Delta Goals": 0,
-      "Wins": 2,
-      "Losses": 3,
+      "Wins": 1,
+      "Losses": 2,
       "Result": {
         "label": "Group",
         "ranking": 0
@@ -826,7 +826,7 @@
       "Goals Conceded": 2,
       "Delta Goals": 1,
       "Wins": 1,
-      "Losses": 2,
+      "Losses": 1,
       "Result": {
         "label": "Round of Sixteen",
         "ranking": 1
@@ -907,7 +907,7 @@
       "Goals Made": 2,
       "Goals Conceded": 5,
       "Delta Goals": -3,
-      "Wins": 1,
+      "Wins": 0,
       "Losses": 2,
       "Result": {
         "label": "Group",
@@ -973,8 +973,8 @@
       "Goals Made": 6,
       "Goals Conceded": 9,
       "Delta Goals": -3,
-      "Wins": 2,
-      "Losses": 3,
+      "Wins": 1,
+      "Losses": 2,
       "Result": {
         "label": "Round of Sixteen",
         "ranking": 1
@@ -1056,7 +1056,7 @@
       "Goals Conceded": 9,
       "Delta Goals": 5,
       "Wins": 6,
-      "Losses": 3,
+      "Losses": 1,
       "Result": {
         "label": "Runner-Up",
         "ranking": 6
@@ -1185,7 +1185,7 @@
       "Goals Made": 3,
       "Goals Conceded": 4,
       "Delta Goals": -1,
-      "Wins": 2,
+      "Wins": 1,
       "Losses": 2,
       "Result": {
         "label": "Group",
@@ -1251,7 +1251,7 @@
       "Goals Made": 2,
       "Goals Conceded": 5,
       "Delta Goals": -3,
-      "Wins": 1,
+      "Wins": 0,
       "Losses": 2,
       "Result": {
         "label": "Group",
@@ -1317,7 +1317,7 @@
       "Goals Made": 2,
       "Goals Conceded": 5,
       "Delta Goals": -3,
-      "Wins": 1,
+      "Wins": 0,
       "Losses": 2,
       "Result": {
         "label": "Group",
@@ -1384,7 +1384,7 @@
       "Goals Conceded": 3,
       "Delta Goals": 5,
       "Wins": 3,
-      "Losses": 2,
+      "Losses": 1,
       "Result": {
         "label": "Quarter Finals",
         "ranking": 2
@@ -1478,16 +1478,16 @@
   {
     "key": "Serbia",
     "value": {
-      "Goals Made": 1,
-      "Goals Conceded": 2,
-      "Delta Goals": -1,
-      "Wins": 2,
+      "Goals Made": 2,
+      "Goals Conceded": 4,
+      "Delta Goals": -2,
+      "Wins": 1,
       "Losses": 2,
       "Result": {
         "label": "Group",
         "ranking": 0
       },
-      "TotalGames": 2,
+      "TotalGames": 3,
       "games": [
         {
           "key": "Brazil",
@@ -1520,6 +1520,22 @@
             "type": "game",
             "Opponent": "Serbia"
           }
+        },
+        {
+          "key": "Switzerland",
+          "value": {
+            "Goals Made": "1",
+            "Goals Conceded": "2",
+            "Delta Goals": "",
+            "Wins": "",
+            "Losses": "",
+            "Result": {
+              "label": "Group",
+              "ranking": 0
+            },
+            "type": "game",
+            "Opponent": "Serbia"
+          }
         }
       ],
       "type": "aggregate"
@@ -1528,16 +1544,16 @@
   {
     "key": "Switzerland",
     "value": {
-      "Goals Made": 3,
-      "Goals Conceded": 4,
-      "Delta Goals": -1,
-      "Wins": 0,
+      "Goals Made": 5,
+      "Goals Conceded": 5,
+      "Delta Goals": 0,
+      "Wins": 1,
       "Losses": 1,
       "Result": {
         "label": "Round of Sixteen",
         "ranking": 1
       },
-      "TotalGames": 3,
+      "TotalGames": 4,
       "games": [
         {
           "key": "Sweden",
@@ -1586,6 +1602,22 @@
             "type": "game",
             "Opponent": "Switzerland"
           }
+        },
+        {
+          "key": "Serbia",
+          "value": {
+            "Goals Made": "2",
+            "Goals Conceded": "1",
+            "Delta Goals": "",
+            "Wins": "",
+            "Losses": "",
+            "Result": {
+              "label": "Group",
+              "ranking": 0
+            },
+            "type": "game",
+            "Opponent": "Switzerland"
+          }
         }
       ],
       "type": "aggregate"
@@ -1597,7 +1629,7 @@
       "Goals Made": 2,
       "Goals Conceded": 4,
       "Delta Goals": -2,
-      "Wins": 2,
+      "Wins": 1,
       "Losses": 2,
       "Result": {
         "label": "Group",
@@ -1664,7 +1696,7 @@
       "Goals Conceded": 4,
       "Delta Goals": 2,
       "Wins": 3,
-      "Losses": 3,
+      "Losses": 2,
       "Result": {
         "label": "Quarter Finals",
         "ranking": 2
@@ -1761,7 +1793,7 @@
       "Goals Made": 3,
       "Goals Conceded": 3,
       "Delta Goals": 0,
-      "Wins": 2,
+      "Wins": 1,
       "Losses": 2,
       "Result": {
         "label": "Group",
@@ -1827,8 +1859,8 @@
       "Goals Made": 3,
       "Goals Conceded": 6,
       "Delta Goals": -3,
-      "Wins": 3,
-      "Losses": 4,
+      "Wins": 2,
+      "Losses": 2,
       "Result": {
         "label": "Round of Sixteen",
         "ranking": 1
@@ -1910,7 +1942,7 @@
       "Goals Conceded": 6,
       "Delta Goals": 10,
       "Wins": 6,
-      "Losses": 2,
+      "Losses": 1,
       "Result": {
         "label": "Third Place",
         "ranking": 5
@@ -2039,8 +2071,8 @@
       "Goals Made": 5,
       "Goals Conceded": 8,
       "Delta Goals": -3,
-      "Wins": 2,
-      "Losses": 3,
+      "Wins": 1,
+      "Losses": 2,
       "Result": {
         "label": "Group",
         "ranking": 0
@@ -2105,8 +2137,8 @@
       "Goals Made": 12,
       "Goals Conceded": 8,
       "Delta Goals": 4,
-      "Wins": 5,
-      "Losses": 4,
+      "Wins": 4,
+      "Losses": 3,
       "Result": {
         "label": "Fourth Place",
         "ranking": 4
@@ -2235,7 +2267,7 @@
       "Goals Made": 2,
       "Goals Conceded": 11,
       "Delta Goals": -9,
-      "Wins": 1,
+      "Wins": 0,
       "Losses": 3,
       "Result": {
         "label": "Group",
@@ -2301,8 +2333,8 @@
       "Goals Made": 6,
       "Goals Conceded": 3,
       "Delta Goals": 3,
-      "Wins": 3,
-      "Losses": 4,
+      "Wins": 2,
+      "Losses": 2,
       "Result": {
         "label": "Round of Sixteen",
         "ranking": 1
@@ -2383,8 +2415,8 @@
       "Goals Made": 2,
       "Goals Conceded": 5,
       "Delta Goals": -3,
-      "Wins": 3,
-      "Losses": 3,
+      "Wins": 1,
+      "Losses": 2,
       "Result": {
         "label": "Group",
         "ranking": 0
@@ -2449,8 +2481,8 @@
       "Goals Made": 6,
       "Goals Conceded": 7,
       "Delta Goals": -1,
-      "Wins": 2,
-      "Losses": 3,
+      "Wins": 1,
+      "Losses": 2,
       "Result": {
         "label": "Round of Sixteen",
         "ranking": 1
@@ -2531,8 +2563,8 @@
       "Goals Made": 4,
       "Goals Conceded": 4,
       "Delta Goals": 0,
-      "Wins": 2,
-      "Losses": 2,
+      "Wins": 1,
+      "Losses": 1,
       "Result": {
         "label": "Group",
         "ranking": 0
