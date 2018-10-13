@@ -1,11 +1,12 @@
-/** Class implementing the shiftChart. */
-class ShiftChart {
+/** Class implementing the trendChart. */
+class TrendChart {
 
     /**
      * Initializes the svg elements required for this chart;
      */
     constructor(){
-        
+
+
     };
 
     /**
@@ -18,13 +19,19 @@ class ShiftChart {
     // ******* TODO: PART V *******
     //Display the names of selected states in a list
 
+
+
     //******** TODO: PART VI*******
     //Use the shift data corresponding to the selected years and sketch a visualization
     //that encodes the shift information
 
+
+
     //******** TODO: EXTRA CREDIT I*******
     //Handle brush selection on the year chart and sketch a visualization
     //that encodes the shift informatiomation for all the states on selected years
+
+
 
     //******** TODO: EXTRA CREDIT II*******
     //Create a visualization to visualize the shift data

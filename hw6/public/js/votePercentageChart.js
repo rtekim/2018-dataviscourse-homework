@@ -9,6 +9,11 @@ class VotePercentageChart {
 		// assign class 'content' in style.css to vote percentage chart
 		
 
+
+
+
+
+
 		//for reference: https://github.com/Caged/d3-tip
 		//Use this tool tip element to handle any hover over the chart
 		this.tip = d3.tip().attr('class', 'd3-tip')
@@ -71,21 +76,19 @@ class VotePercentageChart {
 	                 * pass this as an argument to the tooltip_render function then,
 	                 * return the HTML content returned from that method.
 	                 * */
-					// ================ BEGIN CUT ================== //
-					let result = [];
-	                result.push({"nominee": electionResult[0].D_Nominee_prop,"votecount": electionResult[0].D_Votes_Total,"percentage": electionResult[0].D_PopularPercentage,"party": "D"});
-	                result.push({"nominee": electionResult[0].R_Nominee_prop,"votecount": electionResult[0].R_Votes_Total,"percentage": electionResult[0].R_PopularPercentage,"party": "R"});
-					if(electionResult[0].I_Nominee_prop !== " "){
-						result.push({"nominee": electionResult[0].I_Nominee_prop,"votecount": electionResult[0].I_Votes_Total,"percentage": electionResult[0].I_PopularPercentage,"party": "I"});
-					}
-					return this.tooltip_render({"result":result})
-					// ================ END CUT ===================== //
-	                // return;
+
+
+
+
+
+
+
+
 	            });
 
    			  // ******* TODO: PART III *******
 
-		    //Create the stacked bar chart.
+		    //Create the bar chart.
 		    //Use the global color scale to color code the rectangles.
 		    //HINT: Use .votesPercentage class to style your bars.
 
@@ -106,6 +109,20 @@ class VotePercentageChart {
 			//HINT: Use the chooseClass method to style your elements based on party wherever necessary.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
 	};
 
 

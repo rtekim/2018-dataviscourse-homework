@@ -2,13 +2,21 @@ class ElectoralVoteChart {
     /**
      * Constructor for the ElectoralVoteChart
      *
-     * @param shiftChart an instance of the ShiftChart class
+     * @param trendChart an instance of the ShiftChart class
      */
-    constructor (shiftChart){
+    constructor (trendChart){
 
         // Follow the constructor method in yearChart.js
         // assign class 'content' in style.css to electoral-vote chart
 
+
+
+
+
+
+
+
+       
     };
 
     /**
@@ -59,7 +67,7 @@ class ElectoralVoteChart {
        // HINT: Use .electoralVotesNote class to style this text element
        // HINT: Use the chooseClass method to style your elements based on party wherever necessary.
 
-    
+
 
 
 
@@ -74,7 +82,16 @@ class ElectoralVoteChart {
        //Implement a call back method to handle the brush end event.
        //Call the update method of shiftChart and pass the data corresponding to brush selection.
        //HINT: Use the .brush class to style the brush.
-       
+
+
+
+
+
+
+
+
+
+
     };
 
     

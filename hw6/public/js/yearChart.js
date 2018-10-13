@@ -20,8 +20,8 @@ class YearChart {
         
         // Initializes the svg elements required for this chart
         this.margin = {top: 10, right: 20, bottom: 20, left: 50};
+        let divyearChart = d3.select("#year-chart").classed("fullview", true);
 
-        let divyearChart = d3.select("#year-chart").classed("tile_view", true);
         //fetch the svg bounds
         this.svgBounds = divyearChart.node().getBoundingClientRect();
         this.svgWidth = this.svgBounds.width - this.margin.left - this.margin.right;
@@ -32,7 +32,6 @@ class YearChart {
             .attr("width", this.svgWidth)
             .attr("height", this.svgHeight)
     };
-
 
     /**
      * Returns the class that needs to be assigned to an element.
@@ -85,12 +84,30 @@ class YearChart {
         // Election information corresponding to that year should be loaded and passed to
         // the update methods of other visualizations
 
+        // Note: you may want to initialize other visulaizations using some election from the get go, rather than waiting for a click (the reference solution uses 2012)
+
+
+
+
+
+
+
+
+
+
 
        //******* TODO: EXTRA CREDIT *******
        //Implement brush on the year chart created above.
        //Implement a call back method to handle the brush end event.
        //Call the update method of shiftChart and pass the data corresponding to brush selection.
        //HINT: Use the .brush class to style the brush.
+
+
+
+
+
+
+
 
     };
 

@@ -9,17 +9,24 @@ class TileChart {
         // Follow the constructor method in yearChart.js
         // assign class 'content' in style.css to tile chart
 
+
+
+
+
+
+
         // Legend
         let legendHeight = 150;
         //add the svg to the div
         let legend = d3.select("#legend").classed("tile_view",true);
 
-        //creates svg elements within the div
+        // creates svg elements within the div
         this.legendSvg = legend.append("svg")
                             .attr("width",this.svgWidth)
                             .attr("height",legendHeight)
                             .attr("transform", "translate(" + this.margin.left + ",0)");
         
+        // Intialize tool-tip
         this.tip = d3.tip().attr('class', 'd3-tip')
             .direction('se')
             .offset(function() {
@@ -55,8 +62,7 @@ class TileChart {
         text +=  "Electoral Votes: " + tooltip_data.electoralVotes;
         text += "<ul>"
         tooltip_data.result.forEach((row)=>{
-            //text += "<li>" + row.nominee+":\t\t"+row.votecount+"("+row.percentage+"%)" + "</li>"
-            text += "<li class = " + this.chooseClass(row.party)+ ">" + row.nominee+":\t\t"+row.votecount+"("+row.percentage+"%)" + "</li>"
+            text += "<li class = " + this.chooseClass(row.party)+ ">" + row.nominee+":\t\t"+row.votecount+"\t("+row.percentage+"%)" + "</li>"
         });
         text += "</ul>";
 
@@ -88,16 +94,15 @@ class TileChart {
                      * pass this as an argument to the tooltip_render function then,
                      * return the HTML content returned from that method.
                      * */
-                    // =============== BEGIN CUT ======================== //
-                    let result = [];
-                    result.push({"nominee": d.D_Nominee_prop,"votecount": d.D_Votes,"percentage": d.D_Percentage,"party":"D"});
-                    result.push({"nominee": d.R_Nominee_prop,"votecount": d.R_Votes,"percentage": d.R_Percentage, "party": "R"});
-                    if(d.I_Votes !== "")
-                        result.push({"nominee": d.I_Nominee_prop,"votecount": d.I_Votes,"percentage": d.I_Percentage, "party":"I"});
-                    return this.tooltip_render({"state":d.State, "electoralVotes": d.Total_EV, "winner":d.State_Winner, "result":result});
-                    // =============== END CUT ====================== //
-                    // return ;
-                });
+
+
+
+
+
+
+
+
+                    });
 
         // ******* TODO: PART IV *******
         // Transform the legend element to appear in the center 
@@ -119,14 +124,37 @@ class TileChart {
         //Creates a legend element and assigns a scale that needs to be visualized
         
         let legendQuantile = d3.legendColor()
-        .shapeWidth((this.svgWidth - 2*this.margin.left - this.margin.right)/12)
-        .cells(10)
-        .orient('horizontal')
-        .labelFormat(d3.format('.1r'))
-        .scale(colorScale);
+            .shapeWidth((this.svgWidth - 2*this.margin.left - this.margin.right)/12)
+            .cells(10)
+            .orient('horizontal')
+            .labelFormat(d3.format('.1r'))
+            .scale(colorScale);
 
 
-    
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
     };
 
 
